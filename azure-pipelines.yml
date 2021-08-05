@@ -9,7 +9,7 @@ pool:
   variables:
     buildConfiguration: 'Release'
 
-    stages:
+  stages:
       - stage: Build
         variables:    # stage-level
           STAGE_VAR: 'that happened'
