@@ -1,9 +1,8 @@
 trigger:
-  - '*'
-  
-  pool:
-    vmImage: 'ubuntu-20.04'
-    demands:
+  - '*'  
+pool:
+  vmImage: 'ubuntu-20.04'
+  demands:
     - npm
   
   variables:
