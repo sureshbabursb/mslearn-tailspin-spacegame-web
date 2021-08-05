@@ -10,9 +10,9 @@ pool:
     buildConfiguration: 'Release'
 
   stages:
-      - stage: Build
-        variables:    # stage-level
-          STAGE_VAR: 'that happened'
+  - stage: Build
+    variables:    # stage-level
+    STAGE_VAR: 'that happened'
   steps:
   - task: UseDotNet@2
     displayName: 'Use .NET SDK 5.x'
